@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+*.localized
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Docker
+*.log
+*.pid
+*.pid.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sensitive data
+*.pem
+*.crt
+*.key
+*.json
+.env
+*.secret
+
+# NiFi data
+task2/nifi_data/*.csv
+task2/nifi_data/.processed/
+
+# Kafka data
+*/kafka_data/
+
+# Temporary files
+tmp/
+temp/
